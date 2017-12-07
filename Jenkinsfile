@@ -6,7 +6,7 @@ properties([
  pipelineTriggers([
     upstream(
       threshold: 'SUCCESS',
-      upstreamProjects: 'https://github.com/Demo-attili/veridic-atl/'
+      upstreamProjects: 'https://github.com/Demo-attili/veridic-datta/'
     )
   ])
 
